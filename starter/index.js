@@ -153,6 +153,9 @@ for (var i = 0; i < finances.length; i++) {
   if (fiscalChange > greatestFiscalIncrease[1]) {
     greatestFiscalIncrease = [month[0], fiscalChange];
   }
+
+  //calculateing greatest decrease in profits/losses
+  
 }
 
 // calculating avg change from total change

@@ -155,7 +155,7 @@ for (var i = 0; i < finances.length; i++) {
   }
 
   //calculateing greatest decrease in profits/losses
-  
+  if (fiscalChange > greatestFiscalDecrease[1])
 }
 
 // calculating avg change from total change

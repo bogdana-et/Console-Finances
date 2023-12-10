@@ -134,6 +134,7 @@ var profitsLosses = 0;
 var fiscalChange = 0;
 var totalchange = 0;
 var greatestFiscalIncrease = ["", 0];
+var greatestFiscalDecrease = ["", 0];
 
 for (var i = 0; i < finances.length; i++) {
   var month = finances[i];

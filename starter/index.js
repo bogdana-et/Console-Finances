@@ -168,5 +168,5 @@ var averageChange =
 
 console.log("Total: $" + total);
 console.log("Average Change: " + averageChange);
-console.log(greatestFiscalIncrease);
-console.log(greatestFiscalDecrease);
+console.log("Greatest Increase in Profits/Losses: " + greatestFiscalIncrease);
+console.log("Greatest Decrease in Profits/Losses: " + greatestFiscalDecrease);

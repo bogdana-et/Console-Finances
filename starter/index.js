@@ -167,3 +167,4 @@ var averageChange =
 console.log(totalchange);
 console.log(averageChange);
 console.log(greatestFiscalIncrease);
+console.log(greatestFiscalDecrease);

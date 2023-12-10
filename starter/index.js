@@ -167,6 +167,6 @@ var averageChange =
   Math.round((totalChange / (finances.length - 1)) * 100) / 100;
 
 console.log("Total: $" + total);
-console.log(averageChange);
+console.log("Average Change: " + averageChange);
 console.log(greatestFiscalIncrease);
 console.log(greatestFiscalDecrease);

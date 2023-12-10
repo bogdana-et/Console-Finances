@@ -127,7 +127,6 @@ var finances = [
 // current data point
 // previous data point
 
-console.log(`${finances.length} months.`);
 
 var total = 0;
 var profitsLosses = 0;
@@ -159,6 +158,8 @@ for (var i = 0; i < finances.length; i++) {
     greatestFiscalDecrease = [month[0], fiscalChange];
   }
 }
+
+console.log("Total Months: " + finances.length);
 
 // calculating avg change from total change
 var averageChange =

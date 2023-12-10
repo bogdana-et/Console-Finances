@@ -128,10 +128,11 @@ var finances = [
 // previous data point
 
 
+
 var total = 0;
 var profitsLosses = 0;
 var fiscalChange = 0;
-var totalchange = 0;
+var totalChange = 0;
 var greatestFiscalIncrease = ["", 0];
 var greatestFiscalDecrease = ["", 0];
 
@@ -146,7 +147,7 @@ for (var i = 0; i < finances.length; i++) {
     var previousFiscalVal = finances[i - 1][1];
     fiscalChange = currentFiscalValue - previousFiscalVal;
   }
-  totalchange += fiscalChange;
+  totalChange += fiscalChange;
 
   // calculating greatest increase in profits/losses
   if (fiscalChange > greatestFiscalIncrease[1]) {
@@ -163,9 +164,9 @@ console.log("Total Months: " + finances.length);
 
 // calculating avg change from total change
 var averageChange =
-  Math.round((totalchange / (finances.length - 1)) * 100) / 100;
+  Math.round((totalChange / (finances.length - 1)) * 100) / 100;
 
-console.log(totalchange);
+console.log("Total: $" + total);
 console.log(averageChange);
 console.log(greatestFiscalIncrease);
 console.log(greatestFiscalDecrease);
